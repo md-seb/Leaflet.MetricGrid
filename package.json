@@ -1,0 +1,27 @@
+{
+  "name": "Leaflet.MetricGrid",
+  "version": "1.0.1",
+  "description": "A general purpose Metric Grid overlay for Leaflet with ready defined British, Irish Grids and WGS84 UTM grids.",
+  "main": "Leaflet.MetricGrid.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "dependencies": {
+    "proj4": "^2.6.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/md-seb/Leaflet.MetricGrid.git"
+  },
+  "keywords": [],
+  "author": "Seb Pogorzelski <seb@metdesk.com> (metdesk.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/md-seb/Leaflet.MetricGrid/issues"
+  },
+  "homepage": "https://github.com/md-seb/Leaflet.MetricGrid#readme"
+}
