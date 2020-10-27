@@ -13,6 +13,11 @@
 *  Inspired by lanwei@cloudybay.com.tw and Open Layers 3
 */
 
+if (typeof module !== 'undefined' && module.exports)
+{
+    proj4 = require('proj4').default;
+}
+
 L.MetricGrid = L.Layer.extend({
 
     options: {
@@ -902,5 +907,3 @@ L.UtmGrid = L.MetricGrid.extend({
 L.utmGrid = function (zone, bSouth, options) {
     return new L.UtmGrid(zone, bSouth, options);
 };
-
-
